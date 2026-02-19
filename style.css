@@ -1,0 +1,15 @@
+/* ===== カード画像 ===== */
+.card-image {
+  width: 100%;              /* カード幅に合わせる */
+  height: 200px;            /* 高さを固定 */
+  object-fit: cover;        /* はみ出さずトリミング */
+  border-radius: 14px;      /* 今のカードに合わせた角丸 */
+  margin-bottom: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ホバー時に少し浮かせる */
+.card-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
+}
