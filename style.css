@@ -1,10 +1,10 @@
 /* ===== カード画像 ===== */
 .card-image {
   width: 100%;              /* カード幅に合わせる */
-  height: 200px;            /* 高さを固定 */
+  height: 180px;            /* 高さを固定 */
   object-fit: cover;        /* はみ出さずトリミング */
-  border-radius: 14px;      /* 今のカードに合わせた角丸 */
-  margin-bottom: 16px;
+  border-radius: 12px;      /* 今のカードに合わせた角丸 */
+  margin-bottom: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
